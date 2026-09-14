@@ -18,9 +18,39 @@
     </header>
 
     <!-- FLEXBOX КОНТЕЙНЕР ПЛИТОК -->
- 	<main class="flex-container" id="tiles-container">
+ 	 <!-- FLEXBOX КОНТЕЙНЕР ПЛИТОК (жёстко зашитые карточки, без JSON и JS) -->
+    <main class="flex-container" id="tiles-container">
+
+        <!-- Плитка 1: Java FULL STACK сборник -->
+        <a href="https://boosty.to/sanberdir/posts/3dfa393b-0122-42ea-ae53-9fac86194455?share=post_link" class="tile" target="_blank" rel="noopener">
+            <!-- Изображение-заглушка (внешних картинок нет) -->
+            <img class="tile-image" src="./images/java.png" alt="Java FULL STACK сборник">
+            <div class="tile-content">
+                <div>
+                    <div class="tile-title">Java - FULL STACK сборник статей в формате Obsidian</div>
+                    <div class="tile-desc">Obsidian — приложение, где заметки связаны ссылками в единую сеть. Не папка с файлами, а карта: от одной темы тянется нить к другой. Открываешь Java — видишь, как она цепляется за паттерны, а паттерны — за практику.</div>
+                </div>
+                <div class="tile-meta">Получить сборник по Java</div>
+            </div>
+        </a>
+
+        <!-- Плитка 2: Урок Boosty — как убрать слот -->
+        <a href="https://boosty.to/sanberdir/posts/ba360848-bafd-4f50-915b-4f8b12f14a5f?share=post_link" class="tile" target="_blank" rel="noopener">
+            <img class="tile-image" src="./images/remove_slots.png" alt="Урок по моддингу">
+            <div class="tile-content">
+                <div>
+                    <div class="tile-title">Урок Boosty - как убрать слот в Minecraft 1.20.1 Forge</div>
+                    <div class="tile-desc">Уберём слот полностью! На самом деле мы слот убрали, давайте завершим эту тему, что слот полностью исчезнет. В этом уроке мы узнаем, как до сделать, чтобы слот исчез. 1.20.1 Forge</div>
+                </div>
+                <div class="tile-meta">Получить урок по моддингу</div>
+            </div>
+        </a>
+
+        <!-- При необходимости можно добавить ещё плитки вручную. 
+             Больше не нужен JS и JSON — всё статично. -->
 
     </main>
+
     <!-- ПОДВАЛ С ССЫЛКАМИ -->
 <footer class="site-footer">
     <h2 class="footer-title">Где нас найти</h2>
@@ -66,6 +96,5 @@
         © Imaginaerum — уроки, статьи, моддинг
     </div>
 </footer>
-<script src="script/script.js"></script>
 </body>
 </html>
